@@ -2,7 +2,7 @@
 useSeoMeta({
   title: 'About page',
   description: 'This is the about page',
-})
+});
 </script>
 
 <template>
