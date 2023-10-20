@@ -1,3 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.text-hero{
+  font-size: 112px;
+  font-weight: 900;
+}
+
+.text-hero .active {
+  background: linear-gradient(to right, #630056 0%, #B454FF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub-title{
+  border: 1px solid rgba(0,0,0,0.1);
+  padding: 0.55rem 1rem;
+  border-radius: 99rem;
+  display: inline;
+
+}
+
+.sub-title span {
+  font-size: 0.85rem !important;
+}
+
+.button{
+  padding: 0.65rem 2rem;
+  border-radius: 8px;
+  transition-property: color, background-color;
+  transition-duration: .15s;
+  transition-timing-function: ease;
+}
+
+.button.primary {
+  background: #360A56;
+  color: #fff;
+}
+
+.button.primary:hover {
+  background: #551086;
+}
+
+.button.secondary {
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(to right, #630056, #B454FF) border-box;
+  border: 1px solid transparent;
+  box-shadow: 1px -1px 105px -8px #B454FF;
+  -webkit-box-shadow: 1px -1px 105px -8px #B454FF;
+  -moz-box-shadow: 1px -1px 105px -8px #B454FF;
+}
+
+.button.secondary:hover{
+  background: linear-gradient(to right, #630056, #B454FF) border-box;
+  color: #fff;
+}

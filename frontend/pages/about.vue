@@ -1,8 +1,7 @@
-<script setup>
-useSeoMeta({
-  title: 'About page',
-  description: 'This is the about page',
-});
+<script>
+export default {
+  name: 'About'
+}
 </script>
 
 <template>
