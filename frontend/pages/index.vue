@@ -3,8 +3,9 @@
 <template>
   <Html lang="en">
     <Head>
-      <Title>Organisasi Ngoding Bareng</Title>
-      <Meta name="description" :content="`My page's ${number} description`" />
+      <Title>Ngobar - Komunitas</Title>
+      <Meta name="description" content="Ngobar atau ngoding bareng merupakan sebuah komunitas yang mempelajari pemograman bersama-sama. Gabung dengan ngobar untuk belajar dan berkembang bersama." />
+      <Meta name="keyword" content="ngoding, ngoding bareng, ngobar, komunitas ngoding, komunitas mahasiswa, kampus ngoding, belajar programan, belajar coding" />
     </Head>
   </Html>
 
