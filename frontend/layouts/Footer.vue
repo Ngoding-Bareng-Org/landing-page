@@ -16,7 +16,7 @@ export default {
           </div>
 
           <p class="mt-4 max-w-xs text-gray-500">
-            Dicoding SpaceJl. Batik Kumeli No.50, Sukaluyu,Kec. Cibeunying Kaler, Kota BandungJawa Barat 40123
+            Pacific Century Place Tower Level 45 SCBD Lot 10, Jl. Jenderal Sudirman No.53, RT.5/RW.3, Senayan, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12190
           </p>
 
           <ul class="mt-8 flex gap-6">
