@@ -1,12 +1,10 @@
 <script>
 import Navbar from '../layouts/Navbar.vue'
-import Footer from '../layouts/Footer.vue'
 
 export default {
   name: 'App',
   components: {
     Navbar,
-    Footer
   }
 }
 
@@ -18,6 +16,5 @@ export default {
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-    <Footer />
   </div>
 </template>
